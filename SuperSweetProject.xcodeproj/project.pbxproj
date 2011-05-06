@@ -22,12 +22,12 @@
 		0A387FD913746DD60036B74B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		0A387FDA13746DD60036B74B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0A387FDB13746DD60036B74B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0A387FDE13746DD60036B74B /* SuperSweetProject-Info.plist */ = {isa = PBXFileReference; path = "SuperSweetProject-Info.plist"; sourceTree = "<group>"; };
+		0A387FDE13746DD60036B74B /* SuperSweetProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperSweetProject-Info.plist"; sourceTree = "<group>"; };
 		0A387FE013746DD60036B74B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0A387FE213746DD60036B74B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0A387FE413746DD60036B74B /* SuperSweetProject-Prefix.pch */ = {isa = PBXFileReference; path = "SuperSweetProject-Prefix.pch"; sourceTree = "<group>"; };
+		0A387FE413746DD60036B74B /* SuperSweetProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperSweetProject-Prefix.pch"; sourceTree = "<group>"; };
 		0A387FE613746DD60036B74B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		0A387FE813746DD60036B74B /* SuperSweetProjectAppDelegate.h */ = {isa = PBXFileReference; path = SuperSweetProjectAppDelegate.h; sourceTree = "<group>"; };
+		0A387FE813746DD60036B74B /* SuperSweetProjectAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperSweetProjectAppDelegate.h; sourceTree = "<group>"; };
 		0A387FE913746DD60036B74B /* SuperSweetProjectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperSweetProjectAppDelegate.m; sourceTree = "<group>"; };
 		0A387FEC13746DD60036B74B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0A387FEF13746DD60036B74B /* SuperSweetProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuperSweetProject.xcdatamodel; sourceTree = "<group>"; };
