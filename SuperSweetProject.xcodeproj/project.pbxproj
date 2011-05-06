@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A387FD713746DD60036B74B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A387FD613746DD60036B74B /* Cocoa.framework */; };
+		0A387FE113746DD60036B74B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A387FDF13746DD60036B74B /* InfoPlist.strings */; };
+		0A387FE313746DD60036B74B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A387FE213746DD60036B74B /* main.m */; };
+		0A387FE713746DD60036B74B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0A387FE513746DD60036B74B /* Credits.rtf */; };
+		0A387FEA13746DD60036B74B /* SuperSweetProjectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A387FE913746DD60036B74B /* SuperSweetProjectAppDelegate.m */; };
+		0A387FED13746DD60036B74B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A387FEB13746DD60036B74B /* MainMenu.xib */; };
+		0A387FF013746DD60036B74B /* SuperSweetProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A387FEE13746DD60036B74B /* SuperSweetProject.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A387FD213746DD60036B74B /* SuperSweetProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperSweetProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A387FD613746DD60036B74B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0A387FD913746DD60036B74B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0A387FDA13746DD60036B74B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0A387FDB13746DD60036B74B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A387FDE13746DD60036B74B /* SuperSweetProject-Info.plist */ = {isa = PBXFileReference; path = "SuperSweetProject-Info.plist"; sourceTree = "<group>"; };
+		0A387FE013746DD60036B74B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A387FE213746DD60036B74B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A387FE413746DD60036B74B /* SuperSweetProject-Prefix.pch */ = {isa = PBXFileReference; path = "SuperSweetProject-Prefix.pch"; sourceTree = "<group>"; };
+		0A387FE613746DD60036B74B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0A387FE813746DD60036B74B /* SuperSweetProjectAppDelegate.h */ = {isa = PBXFileReference; path = SuperSweetProjectAppDelegate.h; sourceTree = "<group>"; };
+		0A387FE913746DD60036B74B /* SuperSweetProjectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperSweetProjectAppDelegate.m; sourceTree = "<group>"; };
+		0A387FEC13746DD60036B74B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0A387FEF13746DD60036B74B /* SuperSweetProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuperSweetProject.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A387FCF13746DD60036B74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A387FD713746DD60036B74B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A387FC713746DD60036B74B = {
+			isa = PBXGroup;
+			children = (
+				0A387FDC13746DD60036B74B /* SuperSweetProject */,
+				0A387FD513746DD60036B74B /* Frameworks */,
+				0A387FD313746DD60036B74B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A387FD313746DD60036B74B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A387FD213746DD60036B74B /* SuperSweetProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A387FD513746DD60036B74B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A387FD613746DD60036B74B /* Cocoa.framework */,
+				0A387FD813746DD60036B74B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A387FD813746DD60036B74B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A387FD913746DD60036B74B /* AppKit.framework */,
+				0A387FDA13746DD60036B74B /* CoreData.framework */,
+				0A387FDB13746DD60036B74B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0A387FDC13746DD60036B74B /* SuperSweetProject */ = {
+			isa = PBXGroup;
+			children = (
+				0A387FE813746DD60036B74B /* SuperSweetProjectAppDelegate.h */,
+				0A387FE913746DD60036B74B /* SuperSweetProjectAppDelegate.m */,
+				0A387FEB13746DD60036B74B /* MainMenu.xib */,
+				0A387FEE13746DD60036B74B /* SuperSweetProject.xcdatamodeld */,
+				0A387FDD13746DD60036B74B /* Supporting Files */,
+			);
+			path = SuperSweetProject;
+			sourceTree = "<group>";
+		};
+		0A387FDD13746DD60036B74B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A387FDE13746DD60036B74B /* SuperSweetProject-Info.plist */,
+				0A387FDF13746DD60036B74B /* InfoPlist.strings */,
+				0A387FE213746DD60036B74B /* main.m */,
+				0A387FE413746DD60036B74B /* SuperSweetProject-Prefix.pch */,
+				0A387FE513746DD60036B74B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A387FD113746DD60036B74B /* SuperSweetProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A387FF313746DD60036B74B /* Build configuration list for PBXNativeTarget "SuperSweetProject" */;
+			buildPhases = (
+				0A387FCE13746DD60036B74B /* Sources */,
+				0A387FCF13746DD60036B74B /* Frameworks */,
+				0A387FD013746DD60036B74B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperSweetProject;
+			productName = SuperSweetProject;
+			productReference = 0A387FD213746DD60036B74B /* SuperSweetProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A387FC913746DD60036B74B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Apple Inc";
+			};
+			buildConfigurationList = 0A387FCC13746DD60036B74B /* Build configuration list for PBXProject "SuperSweetProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A387FC713746DD60036B74B;
+			productRefGroup = 0A387FD313746DD60036B74B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A387FD113746DD60036B74B /* SuperSweetProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A387FD013746DD60036B74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A387FE113746DD60036B74B /* InfoPlist.strings in Resources */,
+				0A387FE713746DD60036B74B /* Credits.rtf in Resources */,
+				0A387FED13746DD60036B74B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A387FCE13746DD60036B74B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A387FE313746DD60036B74B /* main.m in Sources */,
+				0A387FEA13746DD60036B74B /* SuperSweetProjectAppDelegate.m in Sources */,
+				0A387FF013746DD60036B74B /* SuperSweetProject.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A387FDF13746DD60036B74B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A387FE013746DD60036B74B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A387FE513746DD60036B74B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A387FE613746DD60036B74B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0A387FEB13746DD60036B74B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A387FEC13746DD60036B74B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A387FF113746DD60036B74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0A387FF213746DD60036B74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0A387FF413746DD60036B74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperSweetProject/SuperSweetProject-Prefix.pch";
+				INFOPLIST_FILE = "SuperSweetProject/SuperSweetProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A387FF513746DD60036B74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperSweetProject/SuperSweetProject-Prefix.pch";
+				INFOPLIST_FILE = "SuperSweetProject/SuperSweetProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A387FCC13746DD60036B74B /* Build configuration list for PBXProject "SuperSweetProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A387FF113746DD60036B74B /* Debug */,
+				0A387FF213746DD60036B74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A387FF313746DD60036B74B /* Build configuration list for PBXNativeTarget "SuperSweetProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A387FF413746DD60036B74B /* Debug */,
+				0A387FF513746DD60036B74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0A387FEE13746DD60036B74B /* SuperSweetProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0A387FEF13746DD60036B74B /* SuperSweetProject.xcdatamodel */,
+			);
+			currentVersion = 0A387FEF13746DD60036B74B /* SuperSweetProject.xcdatamodel */;
+			path = SuperSweetProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0A387FC913746DD60036B74B /* Project object */;
+}
